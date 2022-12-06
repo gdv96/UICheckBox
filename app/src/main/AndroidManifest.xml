@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UICheckBox">
         <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
